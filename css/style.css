@@ -1,3 +1,26 @@
 body {
     background: green;
 }
+
+header {
+    background: black;
+    width: 1400px;
+    height: 70px;
+    margin: auto;
+}
+
+#logo-header {
+align-items: center;
+}
+
+#navbar {
+text-align: right;
+}
+
+#navbar li {
+    margin: 0;
+    padding: 4px; 
+    display: inline;
+    margin-right: 5px;
+    
+}
