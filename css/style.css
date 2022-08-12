@@ -2,23 +2,33 @@
 
 body {
     background: green;
+    display: flex;
 }
 
-header {
+.header {
     background: black;
     width: 1400px;
     height: 70px;
     margin: auto;
     padding: 0;
     margin-top: 0;
+    position: relative;
+    
 }
 
-#logo-header {
-align-items: center;
+
+#header-logo
+{
+margin-left: 150px;
+margin-top: 20px;
 }
 
 #navbar {
-text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 23px;
+    margin-right: 150px;
 }
 
 #navbar a {
@@ -32,8 +42,8 @@ text-decoration: none;
     }
 
 #navbar li {
-    margin: 0;
-    padding: 4px; 
+    margin: auto;
+    padding: 22px; 
     display: inline;
     margin-right: 5px;
     
