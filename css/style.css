@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
 body {
     background: green;
 }
@@ -7,6 +9,8 @@ header {
     width: 1400px;
     height: 70px;
     margin: auto;
+    padding: 0;
+    margin-top: 0;
 }
 
 #logo-header {
@@ -16,6 +20,16 @@ align-items: center;
 #navbar {
 text-align: right;
 }
+
+#navbar a {
+opacity: 0.69;
+font-family: 'Open Sans';
+font-size: 14px;
+line-height: 1.2;
+font-weight: 600;
+color: #ffffff;
+text-decoration: none;
+    }
 
 #navbar li {
     margin: 0;
