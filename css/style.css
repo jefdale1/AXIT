@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+:root {
+    --orange: #ff8b38;
+    --black: #000;
+    --d-brown: #212121;
 
+
+}
 body {
     background: green;
     display: flex;
 }
 
 .header {
-    background: black;
+    background: var(--black);
     width: 1400px;
     height: 70px;
     margin: auto;
@@ -23,7 +29,7 @@ margin-left: 150px;
 margin-top: 20px;
 }
 
-#navbar {
+.nav {
     position: absolute;
     top: 0;
     right: 0;
@@ -31,7 +37,7 @@ margin-top: 20px;
     margin-right: 150px;
 }
 
-#navbar a {
+.nav-link {
 opacity: 0.69;
 font-family: 'Open Sans';
 font-size: 14px;
@@ -39,12 +45,14 @@ line-height: 1.2;
 font-weight: 600;
 color: #ffffff;
 text-decoration: none;
+
     }
 
-#navbar li {
+.nav-item {
     margin: auto;
     padding: 22px; 
     display: inline;
     margin-right: 5px;
+    list-style-type: none;
     
 }
