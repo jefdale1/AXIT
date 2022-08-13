@@ -67,6 +67,7 @@ color: var(--orange)
 
 .wrapper {
 max-width:1400px;
+height: 700px;
 padding-right: 15px;
 padding-left: 15px;
 margin: 0 auto;
@@ -80,7 +81,7 @@ background-color: var(--grey) ;
     margin-right: 150px;
 }
 .image1 {
-    margin-top: 180px;
+    margin-top: 50;
     left: 50px;
 }
 .main-img {
@@ -89,8 +90,9 @@ background-color: var(--grey) ;
 }
 
 .main-text {
-    margin-top: 300px;
-    float: left;
+    position: relative;
+    top:150px;
+    right:176px;
     max-height: 320px;
 }
 
