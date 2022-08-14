@@ -226,28 +226,73 @@ font-weight: 400;
     background: white;
     margin: 0 auto;
     width: 1400px;
+    height:105px;
     position: relative;
-    bottom: 21px;
+    bottom: 14px;
 }
 .social-main {
+    position: relative;
+    left:150px;
+    top:20px;
 }
 .media {
+    font-family: 'Open Sans';
+font-size: 20px;
+line-height: 1.2;
+font-weight: 700;
+color: #333333;
+
 }
 .social-description {
+    max-width: 360px;
+    font-family: 'Open Sans';
+font-size: 14px;
+line-height: 20px;
+font-weight: 400;
+color: #86878b;
+position: relative;
+bottom: 13px;
 }
 .social-link {
+position: relative;
+left:570px; 
+bottom: 63px;
+  
 }
-.Fb {
+.fa-facebook {
+
+color: #cccccc;
+text-decoration: none;
 }
-.Tw {
+
+.fa-twitter {
+    color: #cccccc;
+text-decoration: none;
+margin-left: 62px;
+
 }
-.Go {
+.fa-google-plus {
+    color: #cccccc;
+    text-decoration: none;
+    margin-left: 62px;
 }
-.Pin {
+.fa-pinterest {
+    color: #cccccc;
+text-decoration: none;
+margin-left: 62px;
 }
-.Inst {
+.fa-instagram {
+    color: #cccccc;
+text-decoration: none;
+margin-left: 62px;
 }
-.Stumble {
+.fa-stumbleupon {
+    color: #cccccc;
+text-decoration: none;
+margin-left: 62px;
 }
-.RSS {
+.fa-rss {
+    color: #cccccc;
+    text-decoration: none;
+    margin-left: 62px;
 }
