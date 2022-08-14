@@ -153,6 +153,7 @@ max-width: 461px;
     width: 370px;
     background: white;
     border-radius: 3px;
+    box-shadow: -4px 4px 5px 0px rgba(34, 60, 80, 0.2);
     
 }
 .form-head {
