@@ -81,8 +81,9 @@ background-color: var(--grey) ;
     margin-right: 150px;
 }
 .image1 {
-    margin-top: 50;
-    left: 50px;
+    position: relative;
+    top: -63px;
+    
 }
 .main-img {
     width: 175px;
@@ -106,6 +107,7 @@ color: #ffffff;
 
 .main-text__description {
     opacity: 0.8;
+    margin-top: 34px;
 font-family: Raleway;
 font-size: 16px;
 line-height: 23px;
@@ -135,7 +137,7 @@ max-width: 461px;
 
 .form {
     position:relative;
-    top: 140px;
+    top: 115px;
     right: -50px;
     height: 370px;
     width: 370px;
