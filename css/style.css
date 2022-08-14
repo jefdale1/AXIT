@@ -6,12 +6,20 @@
     --black: #000;
     --d-brown: #212121;
     --grey: #9a9a9a;
-
-
 }
+
+html{
+
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     background-image: url(../img/background.png);
-    max-width: 1400px;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
     margin: 0 auto;
 }
 
@@ -167,8 +175,7 @@ max-width: 461px;
 .form-head__text span {
     color: #ff8b38;
 }
-.form-body {
-}
+
 .form-input {
     align-items: center;
     width: 285px;
@@ -193,11 +200,6 @@ font-weight: 400;
 #pass {
     margin-top:35px;
     margin-left: 30px;
-}
-
-.form-link__background {
-    
-
 }
 
 #form-link {
@@ -225,10 +227,10 @@ font-weight: 400;
 .social {
     background: white;
     margin: 0 auto;
-    width: 1400px;
+    width: 1430px;
     height:105px;
     position: relative;
-    bottom: 14px;
+    bottom: 15px;
 }
 .social-main {
     position: relative;
