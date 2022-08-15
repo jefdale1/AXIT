@@ -81,7 +81,8 @@ height: 640px;
 padding-right: 15px;
 padding-left: 15px;
 margin: 0 auto;
-background-color: var(--grey) ;
+background: url(../img/backwrap.png) no-repeat center center;
+background-size: 1430px 640px;
 }
 
 .main {
