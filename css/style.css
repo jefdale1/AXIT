@@ -299,3 +299,28 @@ margin-left: 62px;
     text-decoration: none;
     margin-left: 62px;
 }
+
+
+.fa-facebook:hover {
+    color: #999999;
+}
+
+.fa-twitter:hover {
+    color: #999999;
+}
+.fa-google-plus:hover {
+    color: #999999;
+}
+.fa-pinterest:hover {
+    color: #999999;
+}
+.fa-instagram:hover {
+    color: #999999;
+}
+.fa-stumbleupon:hover {
+    color: #999999;
+}
+
+.fa-rss:hover {
+    color: #999999;
+}
