@@ -106,6 +106,7 @@ background-size: 1430px 640px;
     top:150px;
     right:176px;
     max-height: 320px;
+    min-width: 516px;
 }
 
 .main-text__title {
