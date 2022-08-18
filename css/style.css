@@ -254,64 +254,22 @@ body {
   left: 570px;
   bottom: 63px;
 }
+
+
+.social-link-btn {
+  color: #cccccc;
+  text-decoration: none;
+  margin-left: 62px;
+  transition: .2s;
+}
+
+
+.social-link-btn:hover {
+  color: #999999;
+}
+
 .fa-facebook {
-  color: #cccccc;
-  text-decoration: none;
-}
-
-.fa-twitter {
-  color: #cccccc;
-  text-decoration: none;
-  margin-left: 62px;
-}
-.fa-google-plus {
-  color: #cccccc;
-  text-decoration: none;
-  margin-left: 62px;
-}
-.fa-pinterest {
-  color: #cccccc;
-  text-decoration: none;
-  margin-left: 62px;
-}
-.fa-instagram {
-  color: #cccccc;
-  text-decoration: none;
-  margin-left: 62px;
-}
-.fa-stumbleupon {
-  color: #cccccc;
-  text-decoration: none;
-  margin-left: 62px;
-}
-.fa-rss {
-  color: #cccccc;
-  text-decoration: none;
-  margin-left: 62px;
-}
-
-.fa-facebook:hover {
-  color: #999999;
-}
-
-.fa-twitter:hover {
-  color: #999999;
-}
-.fa-google-plus:hover {
-  color: #999999;
-}
-.fa-pinterest:hover {
-  color: #999999;
-}
-.fa-instagram:hover {
-  color: #999999;
-}
-.fa-stumbleupon:hover {
-  color: #999999;
-}
-
-.fa-rss:hover {
-  color: #999999;
+  margin-left: 0;
 }
 
 .wrapper-features {
@@ -442,3 +400,4 @@ body {
   top: 64px;
   left: 75px;
 }
+
